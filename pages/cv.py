@@ -4,8 +4,8 @@ import streamlit as st
 def experiences():
     experiences = st.beta_expander("Experiences")
     experiences.markdown(
-        " __2020__: Data Science Internship at Direct Assurance \n"
-        "-French insurance company, part of Axa Group    \n"
+        " __2020__: Data Science Internship at Direct Assurance    \n"
+        "-French insurance company, part of Axa Group         \n"
         "In charge of statistical studies in the Data department, I am monitoring the KPI's evolution \
         and presenting weekly reports to the board. I am crunching data to answer board of \
         Directors business requests, and then automatig these data analysis with python, SQL and HTML dashboards.\
