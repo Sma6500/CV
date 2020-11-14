@@ -79,6 +79,7 @@ def education():
         "Major in mathematics.    \n")
 
 def skills():
+    skills = st.beta_expander("Skills")
     skills.markdown(
         "__IT – Programming__ : \n"
         "Python: I've an advanced knowledge of Python, including object oriented programming\n"
