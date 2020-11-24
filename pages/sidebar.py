@@ -19,7 +19,8 @@ def sidebar(pages: List[str]) -> st.radio:
     left_column, mid_column, right_column = st.sidebar.beta_columns([4,1,1])
     left_column.text(
         "machine learning student    \n"
-        "looking for a Deep-learning internship.")
+        "looking for a   \n"
+        "machine-learning engineering internship.")
     html = image_link('https://github.com/Sma6500', "./img/github_min.png")
     mid_column.markdown(html, unsafe_allow_html=True)
     html = image_link('https://www.linkedin.com/in/luther-ollier', "./img/linkedin_min.png")
