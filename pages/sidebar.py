@@ -16,13 +16,10 @@ def image_link(link: str, png_path: str) -> str:
 def sidebar(pages: List[str]) -> st.radio:
     st.sidebar.image("img/me_min.png", use_column_width=True)
     st.sidebar.subheader('Luther Ollier')
-    left_column, mid_column, right_column = st.sidebar.beta_columns([4,1,1])
-    left_column.text(
-        "machine learning student    \n"
-        "looking for a   \n"
-        "machine-learning engineering internship.")
+    st.sidebar.markdown("Engineering student looking for \n an end-of-study internship.")
+    left_column, right_column = st.sidebar.beta_columns([2,2])
     html = image_link('https://github.com/Sma6500', "./img/github_min.png")
-    mid_column.markdown(html, unsafe_allow_html=True)
+    left_column.markdown(html, unsafe_allow_html=True)
     html = image_link('https://www.linkedin.com/in/luther-ollier', "./img/linkedin_min.png")
     right_column.markdown(html, unsafe_allow_html=True)
     selection = st.sidebar.radio("Go to", pages)
