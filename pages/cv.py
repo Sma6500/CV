@@ -4,6 +4,13 @@ import streamlit as st
 def experiences():
     experiences = st.beta_expander("Experiences")
     experiences.markdown(
+        "__2021__: Deep-learning project -LATIM, laboratory of medical information processing  \n"
+        "Subject : Regularized directional representations for medical image registration applied with VoxelMorph. \
+        Implementation of the following concepts : 3D Pytorch Pipeline, Preprocessing on 3D Volumes           (Vector field \
+convolution), Voxelmorph from the paper ‘VoxelMorph: A Learning Framework for Deformable Medical Image \
+Registration.")
+    
+    experiences.markdown(
         " __2020__: Data Science Internship at Direct Assurance \n"
         "-French insurance company, part of Axa Group    \n"
         "In charge of statistical studies in the Data department, I am monitoring the KPI's evolution \
