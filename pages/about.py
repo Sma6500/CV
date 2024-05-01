@@ -3,7 +3,7 @@ import streamlit as st
 def content():
     st.title('About me')
     st.write(
-        "I'm a 24 french research engineer at __LOCEAN__ (Laboratoire d'Océanographie et du Climat : Experimentation et Approches Numériques) \n"
+        "I'm a 25 french PHD student at __LOCEAN__ (Laboratoire d'Océanographie et du Climat : Experimentation et Approches Numériques) \n"
         "Currently studying Phytoplankton community change under Climate Change Scenarios using Neural Network methods \n"
         "During my studies at __IMT Atlantique__ (one of the top french grandes écoles), \n" 
         "I specialised in __Deep-learning__, __Data analysis__ and its \
