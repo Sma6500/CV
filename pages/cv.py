@@ -4,7 +4,10 @@ import streamlit as st
 def experiences():
     experiences = st.beta_expander("Experiences")
     experiences.markdown(
-        "__2022-20**__: Research engineer at LOCEAN \n "
+        "__2023-20**__: PHD student at LOG and LOCEAN \n "
+        "Subject : Machine Learning for estimating ocean phytoplankton biodiversity under climate change")    
+    experiences.markdown(
+        "__2022-2023__: Research engineer at LOCEAN \n "
         "Subject : Machine Learning for estimating ocean phytoplankton biodiversity under climate change")    
     experiences.markdown(
         "__2021__: Deep-learning project -LATIM, laboratory of medical information processing  \n"
