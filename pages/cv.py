@@ -4,11 +4,24 @@ import streamlit as st
 def experiences():
     experiences = st.beta_expander("Experiences")
     experiences.markdown(
-        "__2023-20**__: PHD student at LOG and LOCEAN \n "
-        "Subject : Machine Learning for estimating ocean phytoplankton biodiversity under climate change")    
+        "__2023-2026__: PHD student at LOG and LOCEAN supervized by Gregory Beaugrand, Roy El Hourani and Marina Levy\n "
+        "Subject : Machine Learning for estimating ocean phytoplankton biodiversity under climate change \n"
+        "Publications : \n"
+        "   - Coming soon\n"
+        "   - Coming soon\n"
+        "Internship supervision \n"
+        "   - 2024 : Artificial Intelligence for Environment: Generative deep learning models for filling gaps in Sea Surface Phytoplankton Ratios"
+        "   - 2024 : Machine Learning Algorithm for the Prediction of Ocean Currents Estimated from Sea Surface Height Anomaly (SLA), Sea Surface Temperature (SST) and Sea Surface Salinity (SSS) time series"
+        "   - 2025 : Down-scaling of Sea Surface Salinity (SSS) Using Deep Learning Techniques (associated publication : [DOI] ()"
+        "   - 2025 : Deep Ocean Modeling Using Conditional Diffusion Models (associated publication : [DOI]()")    
     experiences.markdown(
         "__2022-2023__: Research engineer at LOCEAN \n "
-        "Subject : Machine Learning for estimating ocean phytoplankton biodiversity under climate change")    
+        "Subject : Data driven strategies to improve multivariate climate data\n"
+        "Publications : \n" 
+        "   - Neural Network Approaches for Sea Surface Height Predictability Using Sea Surface Temperature. [DOI](https://doi.org/10.1017/eds.2024.33) \n"
+        "   - Interhemispheric Temperature Gradient and Equatorial Pacific SSTs Drive Sahel Monsoon Uncertainties under Global Warming [DOI] (https://doi.org/10.1175/JCLI-D-23-0162.1)\n"
+        "Conferences : \n" 
+        "   - ")    
     experiences.markdown(
         "__2021__: Deep-learning project -LATIM, laboratory of medical information processing  \n"
         "Subject : Regularized directional representations for medical image registration applied with VoxelMorph. \

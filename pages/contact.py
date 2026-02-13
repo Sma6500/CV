@@ -8,3 +8,4 @@ def content():
     left_column.write('Email: luther.ollier@locean.ipsl.fr')
     right_column.write('[LinkedIn](https://linkedin.com/in/luther-ollier)')
     right_column.write('[Github](https://github.com/Sma6500)')
+    right_column.write('[ORCID] (https://orcid.org/0009-0001-0306-972X)')
