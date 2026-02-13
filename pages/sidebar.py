@@ -14,10 +14,10 @@ def image_link(link: str, png_path: str) -> str:
 
 
 def sidebar(pages: List[str]) -> st.radio:
-    st.sidebar.image("img/me_min.png", use_column_width=True)
+    st.sidebar.image("img/me_min.png", use_container_width=True)
     st.sidebar.subheader('Luther Ollier')
     st.sidebar.markdown("Research engineer at LOCEAN.")
-    left_column, right_column = st.sidebar.beta_columns([2,2])
+    left_column, right_column = st.sidebar.columns([2, 2])
     html = image_link('https://github.com/Sma6500', "./img/github_min.png")
     left_column.markdown(html, unsafe_allow_html=True)
     html = image_link('https://www.linkedin.com/in/luther-ollier', "./img/linkedin_min.png")

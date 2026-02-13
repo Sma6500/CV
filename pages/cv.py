@@ -1,27 +1,39 @@
 import streamlit as st
 
+def research_experiences():
+    research_experiences = st.expander("Research experience")
+    research_experiences.markdown(
+            """__2023-2026__: PHD student at LOG and LOCEAN supervized by Gregory Beaugrand, Roy El Hourani and Marina Levy  
+            __Subject__ : Machine Learning for estimating ocean phytoplankton biodiversity under climate change""") 
+    research_experiences.markdown(
+            """__Publications__ :  
+            - Coming soon  
+            - Coming soon""")
+    research_experiences.markdown(
+            """__Internship supervision__ :  
+            - 2024 : Artificial Intelligence for Environment: Generative deep learning models for filling gaps in Sea Surface Phytoplankton Ratios  
+            - 2024 : Machine Learning Algorithm for the Prediction of Ocean Currents Estimated from Sea Surface Height Anomaly (SLA), Sea Surface Temperature (SST) and Sea Surface Salinity (SSS) time series  
+            - 2025 : Down-scaling of Sea Surface Salinity (SSS) Using Deep Learning Techniques (associated publication : [DOI]()  
+            - 2025 : Deep Ocean Modeling Using Conditional Diffusion Models (associated publication : [DOI]()""")
+    research_experiences.markdown(
+            """__Conferences__ :   
+            - EGU 2024  
+            - EGU 2025  
+            - LPS 2025  
+            - OSM 2026""")    
+    
+    research_experiences.markdown(
+        """__2022-2023__: Research engineer at LOCEAN  
+        __Subject__ : Data driven strategies to improve multivariate climate data""")
+    research_experiences.markdown(    
+        """__Publications__ :  
+        - Neural Network Approaches for Sea Surface Height Predictability Using Sea Surface Temperature. [DOI](https://doi.org/10.1017/eds.2024.33)  
+        - Interhemispheric Temperature Gradient and Equatorial Pacific SSTs Drive Sahel Monsoon Uncertainties under Global Warming [DOI](https://doi.org/10.1175/JCLI-D-23-0162.1)  
+        __Conferences__ :  
+        - Liège 2023""")    
 
 def experiences():
-    experiences = st.beta_expander("Experiences")
-    experiences.markdown(
-        "__2023-2026__: PHD student at LOG and LOCEAN supervized by Gregory Beaugrand, Roy El Hourani and Marina Levy\n "
-        "Subject : Machine Learning for estimating ocean phytoplankton biodiversity under climate change \n"
-        "Publications : \n"
-        "   - Coming soon\n"
-        "   - Coming soon\n"
-        "Internship supervision \n"
-        "   - 2024 : Artificial Intelligence for Environment: Generative deep learning models for filling gaps in Sea Surface Phytoplankton Ratios"
-        "   - 2024 : Machine Learning Algorithm for the Prediction of Ocean Currents Estimated from Sea Surface Height Anomaly (SLA), Sea Surface Temperature (SST) and Sea Surface Salinity (SSS) time series"
-        "   - 2025 : Down-scaling of Sea Surface Salinity (SSS) Using Deep Learning Techniques (associated publication : [DOI] ()"
-        "   - 2025 : Deep Ocean Modeling Using Conditional Diffusion Models (associated publication : [DOI]()")    
-    experiences.markdown(
-        "__2022-2023__: Research engineer at LOCEAN \n "
-        "Subject : Data driven strategies to improve multivariate climate data\n"
-        "Publications : \n" 
-        "   - Neural Network Approaches for Sea Surface Height Predictability Using Sea Surface Temperature. [DOI](https://doi.org/10.1017/eds.2024.33) \n"
-        "   - Interhemispheric Temperature Gradient and Equatorial Pacific SSTs Drive Sahel Monsoon Uncertainties under Global Warming [DOI] (https://doi.org/10.1175/JCLI-D-23-0162.1)\n"
-        "Conferences : \n" 
-        "   - ")    
+    experiences = st.expander("Experiences")
     experiences.markdown(
         "__2021__: Deep-learning project -LATIM, laboratory of medical information processing  \n"
         "Subject : Regularized directional representations for medical image registration applied with VoxelMorph. \
@@ -88,7 +100,7 @@ Registration.")
         Built an excel-based analysis and Data Mining tool in order to define what’s progression regardless of sales revenue.")
         
 def education():
-    education = st.beta_expander("Educational Background")
+    education = st.expander("Educational Background")
     education.subheader("2018 - 2022: National Graduate Engineering School")
     education.write(
         "IMT Atlantique (ex Telecom Bretagne), from the national competitive examination \
@@ -105,7 +117,7 @@ def education():
         "Major in mathematics.    \n")
 
 def skills():
-    skills = st.beta_expander("Skills")
+    skills = st.expander("Skills")
     skills.markdown(
         "__IT – Programming__ : \n"
         "Python: I've an advanced knowledge of Python, including object oriented programming\n"
@@ -129,16 +141,17 @@ def skills():
     
 
 def hobbies():
-    hobbies = st.beta_expander("Hobbies")
+    hobbies = st.expander("Hobbies")
     hobbies.write("I like climbing, I also love reading and playing chess. \
         Obviously a lot more could be said here but that's most likely not why you're here.")
 
 def content():
     st.title('Curriculum vitæ')
+    research_experiences()
     experiences()
     education()
     skills()
     hobbies()
-    
+
 
 
