@@ -23,7 +23,7 @@ def research_experiences():
             - 2024 : Artificial Intelligence for Environment: Generative deep learning models for filling gaps in Sea Surface Phytoplankton Ratios  
             - 2024 : Machine Learning Algorithm for the Prediction of Ocean Currents Estimated from Sea Surface Height Anomaly (SLA), Sea Surface Temperature (SST) and Sea Surface Salinity (SSS) time series  
             - 2025 : Down-scaling of Sea Surface Salinity (SSS) Using Deep Learning Techniques (associated publication submitted to Ocean Modeling)  
-            - 2025 : Physically Consistent Sampling For Ocean Model Initialization (accepted publication in [Neurips Tackling Climate Change with Machine Learning](https://neurips.cc/virtual/2025/loc/san-diego/poster/126936)""")
+            - 2025 : Physically Consistent Sampling For Ocean Model Initialization (accepted publication in [Neurips Tackling Climate Change with Machine Learning](https://neurips.cc/virtual/2025/loc/san-diego/poster/126936))""")
     research_experiences.markdown(
             """__Conferences__ :   
             - EGU 2024 : Linking Satellite and physics-informed Data with Phytoplankton communities Using Deep Learning. [DOI](https://doi.org/10.5194/egusphere-egu24-18663)  
